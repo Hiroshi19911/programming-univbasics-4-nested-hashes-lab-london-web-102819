@@ -1,12 +1,12 @@
-require_relative "spec_helper"
-require_relative "../nested.rb"
+#require_relative "spec_helper"
+#require_relative "../nested.rb"
 
-describe "nested hash" do
-  describe "hopper" do
-    it "operates on the programmer_hash and returns the value of the :grace_hopper key" do
-      expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
+#describe "nested hash" do
+#  describe "hopper" do
+#    it "operates on the programmer_hash and returns the value of the :grace_hopper key" do
+#      expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
 
-    end
+#    end
   end
 
   describe "alan_kay_is_known_for" do
